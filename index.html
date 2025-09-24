@@ -62,10 +62,11 @@
 <body>
     <div class="sidebar">
         <h2>Links</h2>
-        <a href="text.html">About Me</a>
-        <a href="memes.html">Career goals</a>
-        <a href="random.html">Projects</a>
-        <a href="random.html">Skills dev.</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="career.html">Career goals</a>
+        <a href="project.html">Projects</a>
+        <a href="skills.html">Skills dev.</a>
     </div>
     <div class="content">
         <h1>
@@ -78,18 +79,18 @@
                 </ln>
             </marquee>
         </h1>
-        
+
         <p>
             <h3>Hi! Welcome to my Website!</h3><br>
             This site will contain things that may be useful for me at some point in time<br>
             If I personally told you to come here, then uhhhhhhhhhhhhhhhhh :]<br>
             If you, by some random, goofy chance, found this by accident, LEAVE, LEAVE NOW, AFNIOABSFOPIASUFHBAISUO RAAAAAAAAAAAAAA
-            
+
         </p>
         <div id="quote-container">
             <p id="quote"></p>
         </div>
-        
+
         <script>
             const quotes = [
                 "it just works",
@@ -98,7 +99,7 @@
                 "U got exacltly what u want, I got excactly what I wannna be.",
                 "I am the one who knocks.",
                 "I am the danger.",
-                "whilst writing these qoutes, copilot keeps putting i am the one who knocks as a quote, and i have no idea why", 
+                "whilst writing these qoutes, copilot keeps putting i am the one who knocks as a quote, and i have no idea why",
                 "WRAPPED AROUND THE LININGS OF MY THROAT",
                 "you say too late to start, got ur heart in a headlock",
                 "i dont care what elongated muskrat says, i will never call it x",
@@ -154,11 +155,11 @@
                 "SHIBBY",
                 "instagram gore vids",
                 "jkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdfjdkf",
-                "screw genai", 
+                "screw genai",
                 "ai ran outta ideas",
 
             ];
-        
+
             function updateQuote() {
                 const quoteElement = document.getElementById('quote');
                 quoteElement.classList.remove('fade');
@@ -168,12 +169,12 @@
                     quoteElement.classList.add('fade');
                 }, 100); // Small delay to reset animation
             }
-        
+
             // Update the quote every 5 seconds
             setInterval(updateQuote, 5000);
             updateQuote(); // Initial call
         </script>
-        
+
         <style>
             #quote-container {
                 margin: 20px auto;
@@ -183,20 +184,22 @@
                 width: 80%;
                 text-align: center;
             }
+
             #quote {
                 font-size: 18px;
                 color: white;
                 font-family: 'Comic Sans MS', cursive, sans-serif;
                 opacity: 0;
                 transition: opacity 1s ease-in-out;
-                
             }
-            #quote.fade {
-                opacity: 1;
-            }
+
+                #quote.fade {
+                    opacity: 1;
+                }
         </style>
 
-        
+        <img src="img/CONSBAR.gif">
+
         <img src="img/ladworks_still.png">
     </div>
     
