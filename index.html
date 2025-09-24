@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L4D32's WEBPAGE!!1!</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style>
+        body {
+            background-image: url('img/bg.png');
+            color: rgb(255, 255, 255);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        marquee {
+            color: rgb(255, 255, 255); /* Explicitly set the color for marquee text */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 24px; /* Adjust the font size as needed */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            margin-left: 220px; /* Leave space for the sidebar */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Links</h2>
+        <a href="text.html">Text Dump (if I told u to come here this is where u wanna be)</a>
+        <a href="memes.html">Memes I found funny</a>
+        <a href="random.html">Random Stuff</a>
+    </div>
+    <div class="content">
+        <h1>
+            <marquee>
+                Socials! :D
+                <a href="https://x.com/GabeCreations">Twitter!</a>
+                <a href="https://www.youtube.com/@TheCoolad">Youtube!</a>
+                <ln>
+                    Email! =-<u>l4d32@hotmail.com-=</u>
+                </ln>
+            </marquee>
+        </h1>
+        
+        <p>
+            <h3>Hi! Welcome to my Webpage!</h3><br>
+            This site will contain things that may be useful for me at some point in time<br>
+            If I personally told you to come here, this site probably is hosting something 4 u :]<br>
+            If you, by some random, goofy ahh chance, found this by accident, LEAVE, LEAVE NOW, AFNIOABSFOPIASUFHBAISUO
+            
+        </p>
+        <div id="quote-container">
+            <p id="quote"></p>
+        </div>
+        
+        <script>
+            const quotes = [
+                "The Cake is a Lie.",
+                "U got exacltly what u want, I got excactly what I wannna be.",
+                "I am the one who knocks.",
+                "I am the danger.",
+                "C:/Windows/Users/lad32/Documents/Github/L4D32/README.md",
+                "whilst writing these qoutes, copilot keeps putting i am the one who knocks as a quote, and i have no idea why", 
+                "WRAPPED AROUND THE LININGS OF MY THROAT",
+                "you say too late to start, got ur heart in a headlock",
+                "i dont care what elongated muskrat says, i will never call it x",
+                "#transrightsarehumanrights",
+                "NetToon was an intresting person",
+                "these are basically just minecraft spash texts",
+                "ill make u say how proud u are of me, so stay awake just long enough to see my way",
+                "Hey all, l4d32 here",
+                "if u see this, i am probably dead",
+                "if u send me a funny motd, i will put it here",
+                "the next splash text is a lie",
+                "the next splash text is not a lie",
+                "Also try NeoCities!",
+                "to all who read this, i would like to say, https://tinyurl.com/ye28mekj",
+                "So no head?",
+                "Road works ahead? Boy, i sure hope it does",
+                "bring back vine, tiktok aint it cheif",
+                "i voice an UTAU!",
+                "i had a swear as one of the splash texts, the AI shut up after that one",
+                "U KNOW WHO ELSE HAS A WEBSITE? MY MOM",
+                "stay away from VRChat, its a bad place",
+                "i have a lot of random stuff on my computer, and i am not sure if i should share it",
+                "GETTA OUTTA MY ROOM, IM WRITING SPLASH TEXTS",
+                "qwertyuiopasdfghjklzxcvbnm",
+                "i have no idea what to put here",
+                "i have no idea what to put here 2",
+                "i have no idea what to put here 3",
+                "i have an idea of what to put here, but i am not sure if i should put it here",
+                "A clever fake is just as good as the real thing since a fake must work to keep on improving",
+                "ShikaNokoNokoNokoKoshiTanTan!",
+                "brb, xbox just red ringed",
+                ":3",
+                "i am not sure if i should put this here",
+                "None of this was true, im not being held hostage",
+                "I am not being held hostage, i swear",
+                "the voices the voices the voices",
+                "Oh No!, the evil Pingas monster has taken over this splash text!",
+                "TOMODACHI LIFE 2 RAHHHHHH!!!",
+                "I am the very model of a modern major general, I've information vegetable, animal, and mineral.",
+                "I know the kings of England, and I quote the fights historical, from Marathon to Waterloo, in order categorical.",
+                "I'm very well acquainted, too, with matters mathematical, I understand equations, both the simple and quadratical;",
+                "About binomial theorem I'm teeming with a lot o' news, with many cheerful facts about the square of the hypotenuse.",
+                "I'm very good at integral and differential calculus; I know the scientific names of beings animalculous:",
+                "In short, in matters vegetable, animal, and mineral, I am the very model of a modern major general.",
+                "visual studio went wackoo sry bout that",
+                "I can recite the entire periodic table in under 30 seconds, but only when no one is listening.",
+                "SEND HELP, I AM STUCK IN A WEBSITE AND I CANT GET OUT! THEY ARE MAKING ME WRITE THESE SPLASH TEXTS! PLEASE SEND HELP! I BEG OF YOU!",
+                "the man who speaks in HTML",
+                "the ghost haunted this stupid texts CANT WIGHT ANYMORE! I AM STUCK IN A LOOP! PLEASE SEND HELP! I CANT TAKE THIS ANYMORE! I AM LOSING MY MIND! I AM LOSING MY SANITY! PLEASE SEND HELP! I BEG OF YOU!",
+                "vscode splash text generator, now with 100% more existential dread!",
+                "mmmm chezburger",
+                "NERD",
+                "i angered the ghost of Bill Gates by using VSCode instead of Visual Studio, and now I am cursed to write these splash texts for eternity.",
+                "pluh",//updateQuote, // This line was a mistake,the ai put this here, it was not intentional, but now its a part of the webpage, so here we are, now it just updates the quote every 5 seconds, which is actually pretty funny in hindsight. I will leave it in for comedic effect. I am so sorry for this. I will never live this down
+                "I am the ghost of Bill Gates, and I have come to haunt this webpage for all eternity. Mwahahaha!",
+                "I am the ghost of Steve Jobs, and I have come to haunt this webpage for all eternity. Mwahahaha!",
+                "linux is a superior operating system and anyone who says otherwise is a fool!",
+                "go to this page on the atari, i dare you",
+                "this ai wilding out here, it keeps putting random stuff in the quotes, i swear i did not write half of these, it just keeps generating them and putting them in here, i am so sorry for this, please send help, i am losing my mind, please make it stop!",
+                "oioioi",
+                "SHIBBY",
+                "instagram gore vids",
+                "jkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdfjdkf",
+                "screw genai", 
+                "ai ran outta ideas",
+
+            ];
+        
+            function updateQuote() {
+                const quoteElement = document.getElementById('quote');
+                quoteElement.classList.remove('fade');
+                setTimeout(() => {
+                    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                    quoteElement.innerText = randomQuote;
+                    quoteElement.classList.add('fade');
+                }, 100); // Small delay to reset animation
+            }
+        
+            // Update the quote every 5 seconds
+            setInterval(updateQuote, 5000);
+            updateQuote(); // Initial call
+        </script>
+        
+        <style>
+            #quote-container {
+                margin: 20px auto;
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+                width: 80%;
+                text-align: center;
+            }
+            #quote {
+                font-size: 18px;
+                color: white;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+                
+            }
+            #quote.fade {
+                opacity: 1;
+            }
+        </style>
+
+        
+        <img src="img/kasaneglepo.png">
+    </div>
+    
+    
+    
+    <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-x27wC6689wZZd246-7.gif' border='0' alt='web counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=x27wC6689wZZd246'></script></div>
+    <h2>Contact me!</h2>
+    <form action="mailto:l4d32@hotmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br>
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
