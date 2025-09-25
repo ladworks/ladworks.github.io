@@ -3,23 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Dump</title>
-    <link rel="icon" type="image/x-icon" href="img/text/favicon.ico">
+    <title>Skills Dev.</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <style>
-        body {
-            background-image: url('img/text/bg.png');
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+            a:visited {
+                text-decoration: none;
+                color: white;
+            }
+                body {
+            background-image: url('img/tulips.jpg');
+            background-size: cover;
             color: rgb(255, 255, 255);
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             margin: 0;
+
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+            .sidebar a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 10px 0;
+                font-size: 18px;
+            }
+
+                .sidebar a:hover {
+                    text-decoration: underline;
+                }
+
+        .content {
+            margin-left: 220px; /* Leave space for the sidebar */
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Text Dump</h1>
-    <p>This is the text dump page. Add your content here.</p>
-    
-    <!-- Link to download a text file -->
-    <a href="files/HUMAN RIGHTS HEROES WORKS CITED.txt" download="files/HUMAN RIGHTS HEROES WORKS CITED.txt">Download Citations</a>
+    <div class="sidebar">
+        <h2>Links</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="career.html">Career goals</a>
+        <a href="project.html">Projects</a>
+        <a href="skills.html">Skills dev.</a>
+    </div>
+    <h1>Skills Dev.</h1>
+    <p>
+        "Many are often chopped and cooked before they are served and ate" <br>
+        -Sun Zu, The Art Of War<br><br />
+
+        It takes more than a good art style to be a good artist or art lead on a project, you gotta know how to manage others, get your points and ideas across<br>
+        Stuff like that is vital to being a good artist or art lead, but how does one get to that point?<br>
+        For me, in terms of my art style, I pull alot of influence from <u><a href="https://x.com/PhantomArcade3K">PhantomArcade3K.</a></u><br>
+        But thats not what matters what now, what does is how to draw good and be a good leader<br />
+        I plan to start doing this on a more professional level by starting a twitter account dedicated to my art and projects, and posting regularly<br>
+        On top of also practicing my leadership skills by leading group projects in school and outside of school<br>
+    </p>
+
+    <p>
+        Skills development is a tricky subject, it always differs from person to person<br>
+        So this is moreso for me, and if you wanted to see someone elses, why are you on my page? /genq<br />
+    </p>
+    <img src="img/ladworks_skills.png">
 </body>
 </html>

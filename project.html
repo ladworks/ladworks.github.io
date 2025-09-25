@@ -3,20 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Dump</title>
+    <title>Projects</title>
     <link rel="icon" type="image/x-icon" href="img/random/favicon.ico">
     <style>
-        body {
-            background-image: url('img/random/bg.png');
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+            a:visited {
+                text-decoration: none;
+                color: white;
+            }
+                body {
+            background-image: url('img/redmoon.jpg');
+            background-size: cover;
             color: rgb(255, 255, 255);
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             margin: 0;
+
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+            .sidebar a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 10px 0;
+                font-size: 18px;
+            }
+
+                .sidebar a:hover {
+                    text-decoration: underline;
+                }
+
+        .content {
+            margin-left: 220px; /* Leave space for the sidebar */
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Random</h1>
-    <p></p>
+    <div class="sidebar">
+        <h2>Links</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="career.html">Career goals</a>
+        <a href="project.html">Projects</a>
+        <a href="skills.html">Skills dev.</a>
+    </div>
+    <h1>Projects</h1>
+    <p>
+        This is where all my stuff goes, things im proud of, school assignments, ect.<br><br>
+
+        As, stated previously, I currently do <u><a href="https://www.newgrounds.com/portal/view/770371">Friday Night Funkin</a></u> and <u><a href="https://www.minecraft.net">Minecraft</a></u> skins <br><br>
+        So expect to find some funkers or some crafters .<br>
+        This page is still a work in progress, so expect more stuff to be added over time.<br><br>
+    </p>
+
+ 
+    <img src="img/ladworks_desk.png">
 </body>
 </html>
