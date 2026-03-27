@@ -6,23 +6,26 @@
     <title>Projects</title>
     <link rel="icon" type="image/x-icon" href="img/random/favicon.ico">
     <style>
+        @font-face { font-family: Splat2; src: url('Splatoon2.otf'); } 
+        @font-face { font-family: MineCraft; src: url('Minecraft.ttf'); } 
+
         a {
             text-decoration: none;
             color: white;
         }
 
-            a:visited {
-                text-decoration: none;
-                color: white;
-            }
-                body {
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        body {
             background-image: url('img/redmoon.jpg');
             background-size: cover;
             color: rgb(255, 255, 255);
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             margin: 0;
-
         }
 
         .sidebar {
@@ -37,21 +40,29 @@
             overflow-y: auto;
         }
 
-            .sidebar a {
-                display: block;
-                color: white;
-                text-decoration: none;
-                margin: 10px 0;
-                font-size: 18px;
-            }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 18px;
+        }
 
-                .sidebar a:hover {
-                    text-decoration: underline;
-                }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
 
         .content {
-            margin-left: 220px; /* Leave space for the sidebar */
+            margin-left: 220px;
             padding: 20px;
+        }
+
+        .splat {
+            font-family: Splat2, sans-serif;
+        }
+
+        .minecraft {
+            font-family: MineCraft, sans-serif;
         }
     </style>
 </head>
@@ -64,16 +75,58 @@
         <a href="project.html">Projects</a>
         <a href="skills.html">Skills dev.</a>
     </div>
-    <h1>Projects</h1>
-    <p>
-        This is where all my stuff goes, things im proud of, school assignments, ect.<br><br>
 
-        As stated previously, I currently do <u><a href="https://www.newgrounds.com/portal/view/770371">Friday Night Funkin</a></u> characters and <u><a href="https://www.minecraft.net">Minecraft</a></u> skins <br><br>
-        So expect to find some funkers or some crafters .<br>
-        This page is still a work in progress, so expect more stuff to be added over time.<br><br>
-    </p>
+    <div class="content">
+        <h1>Projects</h1>
+        <p>
+            This is where all my stuff goes, things im proud of, school assignments, ect.<br><br>
 
- 
-    <img src="img/ladworks_desk.png">
+            As stated previously, I currently do <u><a href="https://www.newgrounds.com/portal/view/770371">Friday Night Funkin</a></u> characters and <u><a href="https://www.minecraft.net">Minecraft</a></u> skins <br><br>
+            So expect to find some funkers or some crafters .<br>
+            This page is still a work in progress, so expect more stuff to be added over time.<br><br>
+        </p>
+
+        <img src="img/ladworks_desk.png">
+
+        <p>
+            <h2>Intro to E-Sports 1 Videos!!!! </h2>
+        </p>
+
+        <video width="584" height="400" controls>
+            <source src="vids/crawfordgabrielvid.mp4" type="video/mp4">
+        </video> 
+
+        <p>
+            ^^ ^^ <br>This video is quite botched as my laptop couldnt handle much video editing LOLZ. <br> anyways its a speedraw of some jank fnf sprites ig idk :P
+        </p>
+
+        <video width="540" height="540" controls>
+            <source src="vids/crawford_humorV2.mp4" type="video/mp4">
+        </video> 
+
+        <p>
+            ^^ ^^ <br>This video was made to be funny, at that it fails in my opinion. <br> it turns out that trying to make 2 diffrent flash games funny is hard when they have no value<br> on their own.
+        </p>
+
+        <p>
+            <h2>MineCraft Skins!</h2> Click to Download!
+        </p>
+
+    
+        <a href="skins/agent8.png">
+            <img src="img/project/agent8render.png">
+        </a>
+        <p class="splat">
+            ^^ ^^ <br> Agent 8 from Splatoon 2: Octo Expansion!
+        </p> 
+
+    
+        <a href="skins/ladworksskin.png">
+            <img src="img/project/ladworksrender.png">
+        </a>
+        <p class="minecraft">
+            ^^ ^^ <br> My personal MineCraft skin! If you see it around, its me! Probably!
+        </p> 
+    </div>
 </body>
 </html>

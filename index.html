@@ -6,6 +6,7 @@
     <title>Ladworks' Site</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <style>
+        @font-face { font-family: Alternen; src: url('Alterna.otf'); } 
         body {
             background-image: url('img/bliss.jpg');
             color: rgb(255, 255, 255);
@@ -16,10 +17,10 @@
         }
 
         marquee {
-            color: rgb(255, 255, 255); /* Explicitly set the color for marquee text */
+            color: rgb(255, 255, 255); 
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            font-size: 24px; /* Adjust the font size as needed */
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            font-size: 24px; 
+            background-color: rgba(0, 0, 0, 0.5); 
         }
 
         p {
@@ -54,8 +55,11 @@
                 }
 
         .content {
-            margin-left: 220px; /* Leave space for the sidebar */
+            margin-left: 220px;
             padding: 20px;
+        }
+        .alternen {
+            font-family: Alternen, sans-serif;
         }
     </style>
 </head>
@@ -75,7 +79,7 @@
                 <a href="https://www.x.com/ladworks_">Twitter!</a>
                 <a href="https://www.youtube.com/@ladworks">Youtube!</a>
                 <ln>
-                    Email! =-<u>creations608@gmail.com-=</u>
+                    Email! =-<u>creations608@gmail.com</u>-=
                 </ln>
             </marquee>
         </h1>
@@ -83,8 +87,8 @@
         <p>
             <h3>Hi! Welcome to my Website!</h3><br>
             This site will contain things that may be useful for me at some point in time<br>
-            If I personally told you to come here, then uhhhhhhhhhhhhhhhhh :]<br>
-            If you, by some random, goofy chance, found this by accident, LEAVE, LEAVE NOW, AFNIOABSFOPIASUFHBAISUO RAAAAAAAAAAAAAA
+            If I personally told you to come here, then thers probably something for you here<br>
+            If you, by some random chance stumbled apon this yourself, Hi!
 
         </p>
         <div id="quote-container">
@@ -93,66 +97,40 @@
 
         <script>
             const quotes = [
-                "it just works",
-                "Were out of beta we are releasing on time",
+                "It just works",
+                "We're out of beta we are releasing on time",
                 "The Cake is a Lie.",
                 "U got exacltly what u want, I got excactly what I wannna be.",
-                "I am the one who knocks.",
-                "I am the danger.",
-                "whilst writing these qoutes, copilot keeps putting i am the one who knocks as a quote, and i have no idea why",
-                "WRAPPED AROUND THE LININGS OF MY THROAT",
-                "you say too late to start, got your heart in a headlock",
+                "Whilst writing these qoutes, visual studio keeps putting i am the one who knocks as a quote, and i have no idea why",
+                "WRAPPED AROUND THE LININGS OF MY THROAT!",
+                "You say too late to start, got your heart in a headlock",
                 "#transrightsarehumanrights",
-                "these are basically just minecraft spash texts",
-                "Ill make you say how proud you are of me, so stay awake just long enough to see my way",
+                "These are basically just minecraft spash texts",
+                "I'll make you say how proud you are of me, so stay awake just long enough to see my way",
                 "Hey all, ladworks here",
-                "Gele has a PHD in music",
-                "if you see this, i am probably dead",
-                "if you send me a funny motd, i will put it here",
-                "the next splash text is a lie",
-                "the next splash text is not a lie",
+                "If you send me a funny motd, i will put it here",
+                "The next splash text is a lie",
+                "The next splash text is not a lie",
                 "Also try NeoCities!",
-                "to all who read this, i would like to say, https://tinyurl.com/ye28mekj",
-                "So no head?",
                 "Road works ahead? Boy, i sure hope it does",
                 "bring back vine, tiktok aint it chief",
                 "i voice an UTAU!",
                 "i had a swear as one of the splash texts, the AI shut up after that one",
                 "YOU KNOW WHO ELSE HAS A WEBSITE? MY MOM",
                 "stay away from VRChat, its a bad place",
-                "i have a lot of random stuff on my computer, and i am not sure if i should share it",
-                "GETTA OUTTA MY ROOM, IM WRITING SPLASH TEXTS",
                 "qwertyuiopasdfghjklzxcvbnm",
-                "i have no idea what to put here",
-                "i have an idea of what to put here, but i am not sure if i should put it here",
+                "I have no idea what to put here",
+                "I have an idea of what to put here, but i am not sure if i should put it here",
                 "A clever fake is just as good as the real thing since a fake must work to keep on improving",
-                "ShikaNokoNokoNokoKoshiTanTan!",
-                "brb, xbox just red ringed",
-                ":3",
                 "Gettin' freaky on a friday night yeah!",
-                "i am not sure if i should put this here",
-                "None of this was true, im not being honest at all",
-                "I am not being held hostage, i swear",
+                "I am not sure if i should put this here",,
                 "the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices the voices",
                 "Oh No!, the evil Pingas monster has taken over this splash text!",
-                "TOMODACHI LIFE 2 RAHHHHHH!!!",
-                "I can recite the entire periodic table in under 30 seconds, but only when no one is listening.",
-                "SEND HELP, I AM STUCK IN A WEBSITE AND I CANT GET OUT! THEY ARE MAKING ME WRITE THESE SPLASH TEXTS! PLEASE SEND HELP! I BEG OF YOU!",
-                "the man who speaks in HTML",
-                "the ghost haunted this stupid texts CANT WIGHT ANYMORE! I AM STUCK IN A LOOP! PLEASE SEND HELP! I CANT TAKE THIS ANYMORE! I AM LOSING MY MIND! I AM LOSING MY SANITY! PLEASE SEND HELP! I BEG OF YOU!",
-                "vscode splash text generator, now with 100% more existential dread!",
-                "mmmm chezburger",
-                "NERD",
-                "i angered the ghost of Bill Gates by using VSCode instead of Visual Studio, and now I am cursed to write these splash texts for eternity.",
-                "pluh",//updateQuote, // This line was a mistake,the ai put this here, it was not intentional, but now its a part of the webpage, so here we are, now it just updates the quote every 5 seconds, which is actually pretty funny in hindsight. I will leave it in for comedic effect. I am so sorry for this. I will never live this down
-                "I am the ghost of Bill Gates, and I have come to haunt this webpage for all eternity. Mwahahaha!",
-                "I am the ghost of Steve Jobs, and I have come to haunt this webpage for all eternity. Mwahahaha!",
-                "linux is a superior operating system and anyone who says otherwise is a fool!",
-                "go to this page on the atari, i dare you",
-                "this ai wilding out here, it keeps putting random stuff in the quotes, i swear i did not write half of these, it just keeps generating them and putting them in here, i am so sorry for this, please send help, i am losing my mind, please make it stop!",
-                "oioioi",
-                "jkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdfjdkf",
-                "screw genai",
+                "TOMODACHI LIFE LIVING THE DREAM !!!!!!!!!!",
+                "The man who speaks in HTML",
+                "Mmmm chezburger",
+                "NERD!!!!",
+                "Screw gen-ai",
 
             ];
 
@@ -183,7 +161,7 @@
 
             #quote {
                 font-size: 18px;
-                color: white;
+                color: rgb(251, 255, 42);
                 font-family: 'Comic Sans MS', cursive, sans-serif;
                 opacity: 0;
                 transition: opacity 1s ease-in-out;
@@ -211,23 +189,8 @@
         <textarea id="message" name="message"></textarea><br>
         <button type="submit">Send</button>
     </form>
-    <p>
-        funny monkey below, be warned
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-    </p>
-    <img src="img/fcd2d1a6336144f596e5626a673a8d2ctplv-jj85edgx6n-image-origin.jpeg">
+    <p class="alternen">
+        Secret Message
+ </p>
 </body>
 </html>
